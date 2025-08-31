@@ -1,0 +1,30 @@
+html {
+  background-color: pink;
+  padding: 5px;
+}
+button {
+  display: block;
+  margin: 0 auto; 
+  border-radius: 30px;
+  border: 7px solid #005380;
+  padding: 5%;
+  font-size: 2rem; 
+  color: #005380;
+  background-color: #FFD800;
+  font-weight: bold; 
+}
+.generate {
+  text-align: center;
+  color: #005380;
+}
+.box {
+  border: 2px solid black;
+  width: 40%;
+  height: 4rem;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+div {
+  padding: 10px;
+}      
