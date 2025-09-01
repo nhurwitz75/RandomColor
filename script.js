@@ -7,6 +7,4 @@ class Main {
         let color = `rgb(${r}, ${g}, ${b})`; 
         document.querySelector('.generate').innerText = `Your color is: ${color}`; 
     }
-}
-
-console.log(Main.colorPick()); 
+} 
