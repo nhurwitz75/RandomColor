@@ -9,3 +9,5 @@ class Main {
         return color; 
     }
 }
+
+console.log(Main.colorPick()); 
