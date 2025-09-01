@@ -5,8 +5,7 @@ class Main {
         let b = Math.floor(Math.random()*256); 
 
         let color = `rgb(${r}, ${g}, ${b})`; 
-
-        return color; 
+        document.querySelector('.generate').innerText = `Your color is: ${color}`; 
     }
 }
 
