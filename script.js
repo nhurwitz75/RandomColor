@@ -4,7 +4,7 @@ class Main {
         let g = Math.floor(Math.random()*256);
         let b = Math.floor(Math.random()*256); 
 
-        let color = "(" + r + ", " + g + ", " + b + ")";
+        let color = `rgb(${r}, ${g}, ${b})`; 
 
         return color; 
     }
