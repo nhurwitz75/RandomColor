@@ -5,4 +5,7 @@ function colorPick() {
 
     let color = `rgb(${r}, ${g}, ${b})`; 
     document.querySelector('.generate').innerText = `Your color is: ${color}`; 
+
+    document.getElementById("generate").style.color = color; 
+    document.getElementById("pick").style.color = color; 
 }
