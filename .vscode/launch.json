@@ -2,14 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Launch Microsoft Edge",
+            "type": "chrome",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
-            "runtimeArgs": [
-                "--remote-debugging-port=9222"
-            ]
-        }
+            "webRoot": "${workspaceFolder}"
+        } 
     ]
 }
