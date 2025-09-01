@@ -16,6 +16,7 @@ button {
 .generate {
   text-align: center;
   color: #005380;
+  font-size: 4.5em; 
 }
 .box {
   border: 2px solid black;
